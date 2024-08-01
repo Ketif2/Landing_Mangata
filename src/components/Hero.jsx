@@ -3,29 +3,28 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
     return (
-        <div id="Hero"  className='text-white'>
-            <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-                <p className='text-[#00df9a] font-bold p-2'>
+        <div tabIndex="0" id="Hero"  className='text-white'>
+            <div tabIndex="0" className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+                <p tabIndex="0" className='text-[#BB899B] font-bold p-2'>
                     Un espacio para consentirte
                 </p>
-                <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
+                <h1 tabIndex="0" className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 text-[#915268]'>
                     Brillando contigo
                 </h1>
-                <div className='flex justify-center items-center'>
-                    <p className='md:text-5xl sm:text-4xl text-xl font-bold py-6'>
+                <div tabIndex="0" className='flex justify-center items-center'>
+                    <p tabIndex="0" className='md:text-5xl sm:text-4xl text-xl font-bold py-6 text-[#66293E]'>
                         Bisutería artesanal: 
                     </p>
-                    <ReactTyped className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-4'
+                    <ReactTyped tabIndex="0" className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-4 text-[#3C0E1E]'
                         strings={['estética', 'personal', 'confiable']}
                         typeSpeed={60}
                         backSpeed={70}
                         loop />
                 </div>
-                <p className='md:text-2xl text-xl font-bold text-gray-500'>Siéntete libre de brillar cuando y donde quieras</p>
-                <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Productos</button>
+                <p tabIndex="0" className='text-[#66293E] md:text-2xl text-xl font-bold'>Siéntete libre de brillar cuando y donde quieras</p>
+                <button tabIndex="0" className='bg-[#66293E] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white ' >Productos</button>
             </div>
         </div>
-
     )
 }
 

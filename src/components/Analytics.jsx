@@ -1,21 +1,46 @@
 import React from "react";
-import Laptop from "../assets/laptop.jpg";
+import Logo from "../assets/Logo.png";
 
 const Analytics = () => {
   return (
-    <div id="Analytics" className="w-full bg-white py-16 px-4">
-      <div className="max-w-[1240px] max-auto grid md:grid-cols-2">
-        <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
-        <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] font-bold">DATA ANALYTICS DASHBOARD</p>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">Manage Data Analytics Centrally</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-            tenetur sed qui deleniti rerum cumque voluptas ullam eligendi, eius
-            nesciunt corporis ea iste, accusamus quo quam quaerat cupiditate
-            illum repudiandae?
-          </p>
-          <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
+    <div tabIndex="0" id="Analytics" className="w-full bg-white">
+      <div tabIndex="0" className="max-w-[1240px] max-auto grid md:grid-cols-2">
+        <iframe
+          src="https://www.youtube.com/embed/6XvYXPclkes"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="YouTube video"
+          style={{ width: '450px', height: '350px' }}
+          tabIndex="0"
+          className="w-[450px] mx-auto my-4"
+        ></iframe>
+        <div tabIndex="0" className="flex flex-col justify-center">
+          <h1 tabIndex="0" className="text-[#66293E] font-bold text-center text-3xl mb-6">
+            NOSOTROS
+          </h1>
+          <div tabIndex="0" className="grid grid-cols-2 gap-6 px-2">
+            <div tabIndex="0" className="pr-2">
+              <h3 tabIndex="0" className="md:text-4xl sm:text-3xl text-2xl font-bold py-4 ml-2 text-[#66293E]">
+                ¿Quienes somos
+              </h3>
+              <p tabIndex="0" className="text-[#66293E]">
+                Mangata es tu destino para la bisutería minimalista y elegante
+                hecha a mano. En Mangata nos enorgullece ofrecer una amplia gama
+                de joyería cuidadosamente diseñada para complementar tu estilo
+              </p>
+            </div>
+            <div tabIndex="0" className="pl-1 pt-20">
+              <h3 tabIndex="0" className="md:text-4xl sm:text-3xl text-2xl font-bold py-4 text-[#66293E]">
+                ¿Qué vendemos?
+              </h3>
+              <p tabIndex="0" className="text-[#66293E]">
+                Nuestras piezas están meticulosamente elaboradas a mano,
+                utilizando materiales de alta calidad para crear joyas únicas y
+                atemporales. Nos enorgullece ofrecer diseños sencillos y
+                versátiles que realzan la belleza natural de quien las lleva
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

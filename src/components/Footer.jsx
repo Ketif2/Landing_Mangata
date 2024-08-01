@@ -1,53 +1,45 @@
 import React from "react";
 import {
-  FaDribbbleSquare,
-  FaFacebookSquare,
-  FaGit,
-  FaGithubSquare,
   FaInstagram,
-  FaTwitterSquare,
 } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div id="Footer" className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-8 text-gray-100">
-      <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
-        <p className="py-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ipsam
-          explicabo eveniet illo tenetur officia aliquam facilis iste, placeat
-          expedita maiores deleniti in. Voluptatem, atque alias eum soluta
-          dolore commodi?
+    <div tabIndex="0" id="Footer" className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 text-black">
+      <div tabIndex="0">
+        <h1 tabIndex="0" className="w-full text-3xl font-bold text-[#3C0E1E]">¿Brillamos juntos?</h1>
+        <p tabIndex="0" className="py-4">
+          Todo lo que necesitas para tener un día maravilloso al alcance de un mensaje, contáctanos
+          por nuestras redes oficiales para tener más información.
+          Será un gusto ir contigo y tus ideas para hacer crecer tu imaginación! Y lo más importante
+          <span className="text-[#66293E] font-semibold"> HACERTE BRILLAR</span>
         </p>
-        <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+        <div tabIndex="0" className="flex justify-between md:w-[75%] my-6">
+          <a tabIndex="0" href="https://www.instagram.com/mangata_ec_/">
+          <FaInstagram size={30} /> 
+          </a>
         </div>
       </div>
-      <div className="flex justify-around">
-      <div className="lg:col-span=2">
-        <h6 className="font-medium text-gray-400 mx-16 ps-10">Solutions</h6>
-        <ul>
-          <li className="py-2 text-sm border-b border-gray-500">Analytics</li>
-          <li className="py-2 text-sm border-b border-gray-500">Marketing</li>
-          <li className="py-2 text-sm border-b border-gray-500">Commerce</li>
-          <li className="py-2 text-sm border-b border-gray-500">Insights</li>
+      <div tabIndex="0" className="flex justify-around">
+      <div tabIndex="0" className="lg:col-span=2">
+        <h6 tabIndex="0" className="font-medium text-[#66293E] mx-16 ps-10">Bisutería</h6>
+        <ul tabIndex="0">
+          <li tabIndex="0" className="py-2 text-sm border-b border-gray-500">Anillos</li>
+          <li tabIndex="0" className="py-2 text-sm border-b border-gray-500">Aretes</li>
+          <li tabIndex="0" className="py-2 text-sm border-b border-gray-500">Cadenas</li>
+          <li tabIndex="0" className="py-2 text-sm border-b border-gray-500">Pulseras</li>
         </ul>
       </div>
-      <div className="lg:col-span=3">
-        <h6 className="font-medium text-gray-400 mx-16 ps-10">Support</h6>
-        <ul>
-          <li className="py-2 text-sm border-b border-gray-500">Pricing</li>
-          <li className="py-2 text-sm border-b border-gray-500">Documentation</li>
-          <li className="py-2 text-sm border-b border-gray-500">Guides</li>
-          <li className="py-2 text-sm border-b border-gray-500">API Status</li>
+      <div tabIndex="0" className="lg:col-span=3">
+        <h6 tabIndex="0" className="font-medium text-[#66293E] mx-16 ps-10">Beneficios</h6>
+        <ul tabIndex="0">
+          <li tabIndex="0" className="py-2 text-sm border-b border-gray-500">Brillar con luz propia</li>
+          <li tabIndex="0" className="py-2 text-sm border-b border-gray-500">Personalizar a tu gusto</li>
+          <li tabIndex="0" className="py-2 text-sm border-b border-gray-500">Calidad grantizada</li>
+          <li tabIndex="0" className="py-2 text-sm border-b border-gray-500">Precios razonables</li>
         </ul>
       </div>
       </div>
-      
     </div>
   );
 };

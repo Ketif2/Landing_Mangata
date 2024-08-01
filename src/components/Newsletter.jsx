@@ -1,19 +1,23 @@
 import React from 'react'
 
+
 function Newsletter() {
+
   return (
-    <div id="Newsletter"  className='w-full py-24 text-white px-4'>
-        <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
-            <div className='lg:col-span-2 my-4'>
-                <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'> Want tips & tricks to ptimize your flow?</h1>
-                <p>Sign up to our newsletter and stay up to date.</p>
+    <div tabIndex="0" id="Newsletter"  className='w-full py-24 px-4'>
+        <div tabIndex="0" className='max-w-[1240px] mx-auto grid lg:grid-cols-2'>
+            <div tabIndex="0" className='pr-10 my-6'>
+                <h1 tabIndex="0" className='md:text-4xl sm:text-3xl text-2xl font-bold py-6'>Un servicio personal y cálido</h1>
+                <p tabIndex="0" className='max-w-2xl'>En Mangata, nos comprometemos a brindar una experiencia excepcional, donde la artesanía y la calidad se
+                    unen para crear piezas que reflejan estilo y distinción.
+                </p>
             </div>
-            <div className='my-4'>
-                <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
-                    <input className='p-3 flex w-full rounded-md text-black' type="email" placeholder='Enter Email'/>
-                    <button className='bg-[#00df9a] text-black rounded-full font-medium w-[200px] ml-4 my-6 px-6 py-3'>Notify Me</button>
+            <div tabIndex="0" className='pl-14 my-6'>
+            <p tabIndex="0">  Si deseas más información o un contacto directo <span className='text-[#022F66]'> Notificanos </span></p>
+                <div tabIndex="0" className='flex flex-col sm:flex-row items-center justify-between w-full'>
+                    <input tabIndex="0" className='p-3 flex w-full rounded-md text-black' type="email" placeholder='Ingresar Email'/>
+                    <button tabIndex="0" className='bg-[#66293E] text-white rounded-full font-medium w-[200px] ml-4 my-6 px-6 py-3'>Enviar</button>
                 </div>
-                <p>We are bout the protection of your data. Read our <span className='text-[#00df9a]'> Privacy Policy</span></p>
             </div>
         </div>
     </div>
