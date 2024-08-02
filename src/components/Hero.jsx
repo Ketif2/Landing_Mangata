@@ -22,7 +22,6 @@ const Hero = () => {
                         loop />
                 </div>
                 <p tabIndex="0" className='text-[#66293E] md:text-2xl text-xl font-bold'>Siéntete libre de brillar cuando y donde quieras</p>
-                <button tabIndex="0" className='bg-[#66293E] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white ' >Productos</button>
             </div>
         </div>
     )

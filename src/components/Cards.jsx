@@ -72,7 +72,7 @@ const Cards = () => {
             ti. En nuestro catálogo, puedes encontrar una amplia gama de
             opciones que puedes personalizar y solicitar según tus preferencias.
           </p>
-          <a href={`${process.env.PUBLIC_URL}/docs/CatalogoMangata.pdf`} download={"CatálogoMangata.pdf"}>
+          <a href={`${process.env.PUBLIC_URL}/CatalogoMangata.pdf`} download={"CatálogoMangata.pdf"}>
           <button tabIndex="0" className="bg-[#66293E] w-[200px] rounded-md font-medium mx-auto py-3 text-white flex justify-center mt-10">
             Descargar
           </button>

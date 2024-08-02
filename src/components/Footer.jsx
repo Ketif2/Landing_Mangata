@@ -16,7 +16,7 @@ const Footer = () => {
         </p>
         <div tabIndex="0" className="flex justify-between md:w-[75%] my-6">
           <a tabIndex="0" href="https://www.instagram.com/mangata_ec_/">
-          <FaInstagram size={30} /> 
+          <FaInstagram size={30} color="#3C0E1E"/> 
           </a>
         </div>
       </div>
