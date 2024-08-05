@@ -1,6 +1,6 @@
 # Mangata Bisutería Artesanal
 
-Bienvenido al repositorio del proyecto de la landing page de Mangata, tu destino para encontrar bisutería minimalista y elegante hecha a mano.
+Bienvenido al repositorio del proyecto de la landing page de Mangata. Un proyecto como freelance.
 
 ## Demo
 
